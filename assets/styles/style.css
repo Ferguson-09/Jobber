@@ -167,6 +167,18 @@ form {
     padding: 15px;
 }
 
+.list{
+    margin-left: 20px;
+}
+
+.post-pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
 /* right */
 .right {
     background-color: rgb(66, 71, 87);

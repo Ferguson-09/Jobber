@@ -1,0 +1,266 @@
+@import "./reset.css";
+
+header{
+    display: flex;
+    background-color: rgb(32, 34, 41);
+    font-family: 'Poppins', sans-serif;;
+}
+
+header div {
+    margin: 20px 130px 10px;
+}
+
+.first-header {
+    color: rgb(91, 159, 248);
+}
+
+.mid-header {
+    color: rgb(231, 231, 234);
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.end-header {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(104, 103, 103);
+    display: grid;
+    place-items: center;
+}
+
+.end-header:hover{
+    cursor: pointer;
+}
+
+main {
+    background-color: rgb(42, 47, 63);
+    display: flex;
+    gap: 15px;
+    min-height: 100svh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+    
+.container{
+    background-color: rgb(32, 34, 41);
+    display: flex;
+    min-height: calc(100svh - 118px);
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+
+
+/* Left section */
+.left {
+    background-color: rgb(66, 71, 87);
+    width: 350px;
+    max-height: 500px;
+    display: grid;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.linkedin {
+    color: rgb(0, 0, 255);
+}
+
+.write-up {
+    display: flex;
+    justify-content: center;
+}
+
+.connections {
+    margin: 10px;
+    background-color: rgb(88, 92, 104);
+    padding: 10px;
+    height: fit-content;
+}
+
+.num-followers {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Middle section */
+.middle {
+    display: flex;
+    flex-direction: column;
+    min-width: 580px;
+    width: 630px;
+    box-sizing: border-box;
+}
+
+.area {
+    width: 100%;
+    max-height: 320px;
+    margin: 20px 0;
+    background-color: rgb(66, 71, 87);
+    display: grid;
+    justify-self: end;
+    border-radius: 8px;
+}
+
+.input {
+    background-color: rgb(66, 71, 87);
+    width: 100%;
+    height: 250px;
+    color: #fff;
+    padding: 15px;
+    resize: none;
+}
+
+.output {
+    height: fit-content;
+    width: 100%;
+    color: black;
+    background-color: #dfdbdb;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: rgb(66, 71, 87);
+    height: 260px;
+    display: grid;   
+    margin: 0 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-btn {
+    width: 70px;
+    height: 35px;
+    margin: 7px 12px;
+    border-radius: 5px;
+    justify-self: end;
+    background-color: rgb(75, 145, 247);
+    color: #fff;
+    font-weight: bold;
+}
+
+.post {
+    color: black;
+    background-color: #dfdbdb;
+    height: 300px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.list{
+    margin-left: 20px;
+}
+
+.post-pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+/* right */
+.right {
+    background-color: rgb(66, 71, 87);
+    width: 350px;
+    display: grid;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 13px;
+    height: fit-content;
+}
+
+.ppic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.friend {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    padding: 8px;
+    background-color: #dfdbdb;
+    border-radius: 3px;
+    /* justify-content: space-between; */
+    margin: 5px 0;
+}
+
+.add-friend{
+    background-color: rgb(26, 81, 220);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.add-friend:hover{
+    cursor: pointer;
+}
+
+.friend-name {
+    font-weight: bold;
+}
+
+/* sections */
+
+.didi {
+    color: white;
+}
+
+
+
+.top {
+    display: flex;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.date-end {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.text-out {
+    margin: 10px 5px;
+}
+
+.image-out {
+    margin: 7px;
+    max-width: 100%;
+    max-height: 280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+

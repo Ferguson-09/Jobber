@@ -6,11 +6,128 @@
         <meta name="author" content="Ferguson Zibiri">
         <meta name="description" content="My first web page">
         <meta name="keywords" content="html, css, web, web development, javascript">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="icon" href="./assets/media/favicon.png" type="image/x-icon">
-        <script src="./assets/scripts/main.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script defer src="./assets/scripts/main.js"></script>
         <link rel="stylesheet" href="./assets/styles/style.css">
+        <title>Jobber</title>
     </head>
     <body>
-        
+        <header>
+            <div class="first-header">
+                <h2>Jobber</h2>
+            </div>
+            <div class="mid-header">
+                <p>Friends</p>
+                <p>Pages</p>
+                <p>Groups</p>
+                <p>My Ads</p>
+                <p>Settings</p>
+            </div>
+            <div class="end-header">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="left">
+                    <div class="info-me">
+                        <img class="profile-pic" src="./assets/media/profile-pic.avif">
+                        <h2 class="name">Ferguson Zibiri</h2>
+                        <p class="title">Front-End Developer</p>
+                        <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/excel-zibiri-22a5503a2/" class="linkedin">Click here to go to my Linkedin Profile</a></p>
+                    </div>
+                    <div class="write-up">
+                        <div class="connections">
+                            <p class="num-followers">300</p>
+                            <p>Connections</p>
+                        </div>
+                        <div class="connections">
+                            <p class="num-followers">500</p>
+                            <p> Profile Views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="area">
+                        <form>
+                            <textarea class="input"></textarea>
+                            <div class="bottom">
+                                <div class="didi">
+                                    <input type="file" id="imageUpload" accept="image/*">
+                                </div>
+                            </div>
+                        </form>
+                        <button class="post-btn">Post</button>
+                    </div>
+                    <div class="output">
+                        <div class="top">
+                            <div class="end-header">
+                                <img src="./assets/media/judiciary.jpeg" class="post-pic">
+                            </div>          
+                            <h3 class="name">Manitoba Government</h3>
+                            <p class="date-end">May 8, 2026</p>
+                        </div>
+                        <p class="text-out">
+                            As we head into the new tax year, several tax changes are expected to impact Canadians and businesses alike.<br>
+
+                            Key updates include:
+                            <ul class="list">
+                                <li>A reduction in the lowest federal income tax bracket to 14%</li>
+                                <li>Increased RRSP and TFSA contribution limits</li>
+                                <li>Changes to CPP contributions and payroll deductions</li>
+                                <li>Updated tax credits and affordability measures</li>
+                            </ul><br>
+                            While some Canadians may see modest increases in take-home pay, the overall impact will vary based on income and province.
+
+                            With the tax landscape continuing to evolve, proactive tax planning is becoming more important than ever.<br>
+
+                            #Canada #Taxes #Finance #TaxPlanning #Business #CRA #FinancialLiteracy
+                        </p>
+                        <img src="blob:http://127.0.0.1:5500/883723d7-8f94-436e-a174-63b7d6e9c4c6" class="image-out">
+                    </div>
+                    <div class="output">
+                        <div class="top">
+                            <div class="end-header">
+                                <img src="./assets/media/gates.jpeg" class="post-pic">
+                            </div>          
+                            <h3 class="name">Bill Gates</h3>
+                            <p class="date-end">March 17, 2026</p>
+                        </div>
+                        <p class="text-out">
+                            One of the most underrated skills in tech isn’t coding — it’s communication.<br><br>
+
+                            Over the past few months, I’ve realized that being able to explain ideas clearly, ask good questions, and collaborate effectively often matters just as much as writing clean code.<br>
+
+                            The best developers I’ve worked with don’t just solve problems technically — they make complex things understandable for everyone else on the team.
+
+                            Still improving every day, but learning that growth in this field goes beyond just mastering frameworks and languages.<br><br>
+
+                            Technical skills may open the door, but communication is what helps teams build great products together.<br>
+
+                            #SoftwareDevelopment #Tech #Programming #CareerGrowth #WebDevelopment #Communication
+                        </p>
+                        <img src="./assets/media/second-post.jpeg" class="image-out">
+                    </div>
+                </div>
+                <div class="right">
+                </div>
+            </div>
+            <!-- <div class="overlay">
+                <div class="pop-up">
+                    <div class="end-header">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="pop-text">
+                        
+                    </div>
+                    <button class="close">Close</button>
+                </div>
+            </div> -->
+            
+        </main>
     </body>
 </html>

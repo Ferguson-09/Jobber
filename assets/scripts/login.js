@@ -24,14 +24,11 @@ loginForm.addEventListener("submit", function (event) {
     const enteredPassword = passwordInput.value;
 
     // Check credentials
-    if (
-        enteredEmail === storedEmail &&
-        enteredPassword === storedPassword
-    ) {
-        // Redirect to home page
-        window.location.href = "main.html";
+    if(email.value !== storedEmail){
+        errorMessage.textContent = "Incorrect email";
+    } else if(password.value !== storedPassword){
+        errorMessage.textContent = "Incorrect password";
     } else {
-        // Show error message
-        errorMessage.textContent = "Incorrect email or password";
+    window.location.href = "home.html";
     }
 });

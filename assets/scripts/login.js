@@ -1,19 +1,20 @@
 'use strict';
 
 // Store login credentials in localStorage
-localStorage.setItem("email", "ivan@gmail.com");
+localStorage.setItem("email", "jobber@gmail.com");
 localStorage.setItem("password", "1234");
 
 // Get form elements
 const loginForm = document.getElementById("loginForm");
-const email = document.getElementById("email");
+const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 const errorMessage = document.getElementById("error-message");
+const submitBtn = document.querySelector('.login-btn')
 
 // Login form submit event
-loginForm.addEventListener("submit", function (event) {
+loginForm.addEventListener("submit", function (a) {
     // Prevent page refresh
-    event.preventDefault();
+    a.preventDefault();
 
     // Get stored credentials
     const storedEmail = localStorage.getItem("email");
@@ -24,9 +25,9 @@ loginForm.addEventListener("submit", function (event) {
     const enteredPassword = passwordInput.value;
 
     // Check credentials
-    if(email.value !== storedEmail){
+    if(enteredEmail !== storedEmail){
         errorMessage.textContent = "Incorrect email";
-    } else if(password.value !== storedPassword){
+    } else if(passwordInput.value !== storedPassword){
         errorMessage.textContent = "Incorrect password";
     } else {
     window.location.href = "main.html";

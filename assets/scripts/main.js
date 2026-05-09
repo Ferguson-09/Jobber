@@ -1,4 +1,6 @@
 'use strict';
+
+// Constants
 const main = document.querySelector('main');
 const postBtn = document.querySelector('.post-btn');
 const textArea = document.querySelector('.input');
@@ -18,6 +20,8 @@ const date = now.toLocaleDateString('en-US', {
     day: 'numeric',
     year: 'numeric'
 });
+
+// Adding posts to the feed
 
 postBtn.addEventListener('click', (a) => {
     a.preventDefault();
@@ -59,15 +63,6 @@ postBtn.addEventListener('click', (a) => {
     image.value = '';
  }) 
 
-// openBtn.addEventListener('click', () => {
-//     overlay.style.display = 'flex';
-// }) 
-
-
-// closeBtn.addEventListener('click', () => {
-//     overlay.style.display = 'none';
-// })
-
 const options = {
     method: 'GET',
     headers: {
@@ -81,6 +76,7 @@ fetch(apiURL, options)
     .then(json => json.results)
     .then(console.log);
 
+// To get the users for the add friends section
 async function getUsers(endpointURL) {
     try {
         const result = await fetch (endpointURL, options);

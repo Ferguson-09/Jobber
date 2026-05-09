@@ -1,36 +1,73 @@
-# Put google fonts link in your head so you can access some of the fonts
+# Jobber
 
-# Header specs 
-Header height: 70px
+Jobber is a LinkedIn-inspired social networking demo built with HTML, CSS, and JavaScript.
 
-background-color: rgb(32, 34, 41);
+The project includes:
+- A functional login page
+- Local storage authentication
+- Dynamic post creation
+- Image upload support
+- Responsive modern UI
+- User data fetched from the Random User API
 
-Header font-family: 'Poppins', sans-serif;;
+---
 
-## Profile pic in top right
-background-color: rgb(104, 103, 103);
+## Features
 
-## Main
-background-color: rgb(42, 47, 63);
-font-family: "Inter", sans-serif;
-font-style: normal;
-font-optical-sizing: auto;
+### Login System
+- Demo authentication using localStorage
+- Email and password validation
+- Redirects users after successful login
+- Error handling for incorrect credentials
 
-## Middle tab (container)
-background-color: rgb(32, 34, 41);(its the same as the items inside it)
+### Social Feed
+- Create text posts
+- Upload images with posts
+- Dynamic post rendering using JavaScript
+- Automatic date generation
 
-## Post button 
-background-color: rgb(75, 145, 247);
+### Storage
+- Uses:
+  - localStorage
+  - sessionStorage
+- Stores demo login credentials
 
-## Add friend button 
-background-color: rgb(26, 81, 220);
+---
 
-## Posts and friends
-background-color: #dfdbdb;
+## Technologies Used
 
+- HTML5
+- CSS3
+- JavaScript 
+- Local Storage API
+- Fetch API
 
+---
 
+## Demo Login
 
+Email:
+jobber@gmail.com
 
+Password:
+1234
 
+---
 
+## Future Improvements
+
+- Real backend authentication
+- Database integration
+- User profiles
+- Comment system
+- Likes/reactions
+- Mobile optimization
+- Real-time feed updates
+
+---
+
+## Author
+
+Ferguson Zibiri & Ivan Chijindu
+
+Click [here](https://ferguson-09.github.io/Jobber/) to check it out

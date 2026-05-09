@@ -29,6 +29,6 @@ loginForm.addEventListener("submit", function (event) {
     } else if(password.value !== storedPassword){
         errorMessage.textContent = "Incorrect password";
     } else {
-    window.location.href = "home.html";
+    window.location.href = "main.html";
     }
 });

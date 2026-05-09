@@ -29,7 +29,7 @@ loginForm.addEventListener("submit", function (event) {
         enteredPassword === storedPassword
     ) {
         // Redirect to home page
-        window.location.href = "home.html";
+        window.location.href = "main.html";
     } else {
         // Show error message
         errorMessage.textContent = "Incorrect username or password";

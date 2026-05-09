@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Ivan Chijindu">
+        <meta name="description" content="Myfirst web page">
+        <meta name="keywords" content="html, css, web, web development, javascript">
+        <link rel="icon" href="./assets/media/Green-sky-Northern-Lights.jpg" type="image/x-icon">
+        <title>Jobber Login</title>
+        <link rel="stylesheet" href="./assets/styles/index.css" media="all">
+        <script src="./assets/script/login.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    </head>
+    <body>
+        <header>
+            <div class="first-header">
+                <h2>Jobber</h2>
+            </div>
+
+            <div class="end-header">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </header>
+
+        <main>
+            <div class="login-container">
+
+                <!-- LEFT SIDE -->
+                <section class="welcome-section">
+                    <h1>Welcome Back</h1>
+                    <p>
+                        Connect with professionals, discover opportunities,
+                        and grow your network with Jobber.
+                    </p>
+                    <img src="./assets/media/login-image.png" alt="Networking Illustration" class="login-image">
+                </section>
+
+                <!-- RIGHT SIDE -->
+                <section class="form-section">
+                    <div class="form-card">
+                        <h2>Login</h2>
+                        <form id="loginForm">
+                            <div class="input-box">
+                                <label>Username</label>
+                                <input type="text" id="username" placeholder="Enter username">
+                            </div>
+
+                            <div class="input-box">
+                                <label>Password</label>
+                                <input type="password" id="password" placeholder="Enter password">
+                            </div>
+
+                            <p id="error-message"></p>
+
+                            <button type="submit" class="login-btn">Login</button>
+                        </form>
+
+                        <div class="test-login">
+                            <p>Demo Login</p>
+                            <span>Username: ivan</span>
+                            <span>Password: 1234</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,5 +1,6 @@
 @import "./reset.css";
 
+/* Header styles */
 header{
     display: flex;
     background-color: rgb(32, 34, 41);
@@ -33,6 +34,8 @@ header div {
 .end-header:hover{
     cursor: pointer;
 }
+
+/* General styles */
 
 main {
     background-color: rgb(42, 47, 63);
